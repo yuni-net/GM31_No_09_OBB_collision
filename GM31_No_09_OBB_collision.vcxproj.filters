@@ -4,16 +4,211 @@
     <Filter Include="God">
       <UniqueIdentifier>{8b830153-74d6-4574-8486-2df5742f8b4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{c92a04d6-f261-4ffd-ae00-00bf51acb22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{89878e5a-c2dc-44bc-86a8-bc8a10281917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{e4904712-51e5-40ab-a71f-30d9032604de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{8fbb1824-eed1-4ecb-a54c-540bd81b2fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simplect3D">
+      <UniqueIdentifier>{2720aad9-68a5-4ebd-afab-6ea799530774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraWork">
+      <UniqueIdentifier>{f144f6b2-afc2-42f0-8590-d906051fd229}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\WinMain.cpp" />
     <ClCompile Include="src\God.cpp">
       <Filter>God</Filter>
     </ClCompile>
+    <ClCompile Include="src\compute_bounding.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\anime_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\billboard.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\Bone.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\BoneBranch.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\BonedTop.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\BoneMap.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\BoneMotion.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\box.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\box_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\bunish_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\bunisher.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\camera.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\canimer.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\display_manager.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\dxinput.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\dxlight.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\dxmanager.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\fps60.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\get_text.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\image_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\key.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\key_system.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\leaf.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\manager.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\matrix.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\model.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\model_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\ModelData_pmd.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\Motion3D.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\MotionData.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\mouse.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\Quaternion.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\se.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_coor3.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_ModelDustConverter.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_normalize_vector.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_Seal.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_SealData.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_triangle_gravity_center.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\sky_dome.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\sky_dome_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\sky_dome_mini.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\sound_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\sound_manager.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\sphere.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\sphere_data.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\unique_sound.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\utility.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simplect3D\simplect3D_cpp\anime.cpp">
+      <Filter>simplect3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraWork.cpp">
+      <Filter>CameraWork</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\God.h">
       <Filter>God</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraWork.h">
+      <Filter>CameraWork</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
