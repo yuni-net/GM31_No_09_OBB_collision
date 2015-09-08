@@ -47,6 +47,15 @@ void compute_bounding(const si3::Model & model, si3::Coor3 & box_size, si3::Coor
 			smallest.z = pos.z;
 		}
 
+#if 1
+		box_size.x = (beggest.x >= abs(smallest.x)) ? beggest.x * 2 : abs(smallest.x) * 2;
+		box_size.y = (beggest.y >= abs(smallest.y)) ? beggest.y * 2 : abs(smallest.y) * 2;
+		box_size.z = (beggest.z >= abs(smallest.z)) ? beggest.z * 2 : abs(smallest.z) * 2;
+
+		center_pos.x = 0.0f;
+		center_pos.y = 0.0f;
+		center_pos.z = 0.0f;
+#else
 		box_size.x = beggest.x - smallest.x;
 		box_size.y = beggest.y - smallest.y;
 		box_size.z = beggest.z - smallest.z;
@@ -54,6 +63,7 @@ void compute_bounding(const si3::Model & model, si3::Coor3 & box_size, si3::Coor
 		center_pos.x = smallest.x + box_size.x*0.5f;
 		center_pos.y = smallest.y + box_size.y*0.5f;
 		center_pos.z = smallest.z + box_size.z*0.5f;
+#endif
 	}
 
 	modeld.unlock_index_buffer();

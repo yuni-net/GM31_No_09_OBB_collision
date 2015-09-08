@@ -10,4 +10,10 @@ public:
 		 
 	// @Override
 	void update();
+
+
+
+private:
+	void move();
+	void rotate();
 };

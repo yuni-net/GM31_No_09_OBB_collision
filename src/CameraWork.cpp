@@ -5,9 +5,9 @@ void CameraWork::init()
 {
 	first_mat.x(0.0f);
 	first_mat.y(0.0f);
-	first_mat.z(12.0f);
+	first_mat.z(-12.0f);
 
-	radian.x = 0.1f;
+	radian.x = -0.2f;
 	radian.y = 0.0f;
 	radian.z = 0.0f;
 }
@@ -15,19 +15,19 @@ void CameraWork::init()
 void CameraWork::update()
 {
 	const float rot_speed = 0.1f;
-	if (si3::Manager::key().pushing(DIK_W))
-	{
-		radian.x += rot_speed;
-	}
-	if (si3::Manager::key().pushing(DIK_D))
-	{
-		radian.y += rot_speed;
-	}
-	if (si3::Manager::key().pushing(DIK_S))
+	if (si3::Manager::key().pushing(DIK_UP))
 	{
 		radian.x -= rot_speed;
 	}
-	if (si3::Manager::key().pushing(DIK_A))
+	if (si3::Manager::key().pushing(DIK_RIGHT))
+	{
+		radian.y += rot_speed;
+	}
+	if (si3::Manager::key().pushing(DIK_DOWN))
+	{
+		radian.x += rot_speed;
+	}
+	if (si3::Manager::key().pushing(DIK_LEFT))
 	{
 		radian.y -= rot_speed;
 	}
