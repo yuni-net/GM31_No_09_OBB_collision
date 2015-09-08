@@ -11,55 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\anime.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\anime_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\billboard.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\Bone.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\BoneBranch.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\BonedTop.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\BoneMap.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\BoneMotion.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\box.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\box_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\bunisher.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\bunish_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\camera.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\canimer.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\display_manager.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\dxinput.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\dxlight.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\dxmanager.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\fps60.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\get_text.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\image_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\key.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\key_system.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\leaf.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\manager.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\matrix.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\model.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\ModelData_pmd.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\model_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\Motion3D.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\MotionData.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\mouse.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\Quaternion.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\se.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_coor3.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_ModelDustConverter.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_normalize_vector.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_Seal.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_SealData.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\si3_triangle_gravity_center.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\sky_dome.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\sky_dome_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\sky_dome_mini.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\sound_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\sound_manager.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\sphere.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\sphere_data.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\unique_sound.cpp" />
-    <ClCompile Include="..\simplect3D\simplect3D_cpp\utility.cpp" />
     <ClCompile Include="src\CameraWork.cpp" />
     <ClCompile Include="src\Character.cpp" />
     <ClCompile Include="src\compute_bounding.cpp" />
@@ -108,12 +59,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\Users\MoNoQLoREATOR\Documents\projects\cpp\simplect3D\simplect3D;C:\Users\MoNoQLoREATOR\Documents\projects\cpp\Fantomwaves\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\MoNoQLoREATOR\Documents\projects\cpp\Fantomwaves\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\MoNoQLoREATOR\Documents\projects\cpp\simplect3D\simplect3D;C:\Users\MoNoQLoREATOR\Documents\projects\cpp\Fantomwaves\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>C:\Users\MoNoQLoREATOR\Documents\projects\cpp\simplect3D\simplect3D;C:\Users\MoNoQLoREATOR\Documents\projects\cpp\Fantomwaves\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\MoNoQLoREATOR\Documents\projects\cpp\Fantomwaves\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\MoNoQLoREATOR\Documents\projects\cpp\simplect3D\simplect3D;C:\Users\MoNoQLoREATOR\Documents\projects\cpp\Fantomwaves\FantomWaves;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -121,7 +72,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;simplect3D_developping_;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
@@ -138,7 +89,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;simplect3D_developping_;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
