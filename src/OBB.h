@@ -15,12 +15,15 @@ public:
 	const si3::Coor3 & get_half_length3() const;
 	const si3::Coor3 & get_center() const;
 	const si3::Matrix & get_world_mat() const;
+	const si3::Coor3 & get_world_center() const;
 
 private:
 	
 	si3::Coor3 half_length3;
 	si3::Coor3 center;
 	si3::Matrix world_mat;
+
+	si3::Coor3 world_center;
 };
 
 
