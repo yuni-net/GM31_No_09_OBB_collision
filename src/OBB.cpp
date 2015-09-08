@@ -13,7 +13,8 @@ void OBB::init(const si3::Coor3 & box_size, const si3::Coor3 & center_pos)
 void OBB::set_world_mat(const si3::Matrix & world_mat)
 {
 	this->world_mat = world_mat;
-	world_center = si3::Matrix(center) * world_mat;
+	si3::Matrix center_mat = si3::Matrix(center) * world_mat;
+	world_center = center_mat.coor3();
 }
 
 
@@ -76,7 +77,7 @@ void compute_OBB_lengthes(
  */
 bool is_NOT_crossable(const si3::Coor3 & axis_isolation, const si3::Coor3 OBB_lengthes[6], const si3::Coor3 & vec_ano2one)
 {
-	float total_length;	// The total length of half shadow.
+	float total_length = 0.0f;	// The total length of half shadow.
 	for (int j = 0; j < 6; ++j)
 	{
 		total_length += fabsf(si3::Coor3::dot(axis_isolation, OBB_lengthes[j]));
