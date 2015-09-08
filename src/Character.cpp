@@ -1,5 +1,6 @@
 #include "Character.h"
 #include "util.h"
+#include "God.h"
 
 void Character::init(si3::ModelData & modeld)
 {
@@ -9,6 +10,7 @@ void Character::init(si3::ModelData & modeld)
 	boxd.create(box_size.x, box_size.y, box_size.z);
 	box.set_box_data(boxd);
 	box.alpha(0.4f);
+	obb.init(box_size, center_pos);
 }
 
 void Character::update()
@@ -24,6 +26,9 @@ void Character::update()
 	box.red(0.4f);
 	box.green(1.0f);
 	box.blue(0.4f);
+
+	obb.set_world_mat(box.get_world_mat());
+	God::get_judge_man().register_chara(*this);
 }
 
 void Character::draw()
@@ -38,4 +43,9 @@ void Character::collided()
 	box.red(1.0f);
 	box.green(0.4f);
 	box.blue(0.4f);
+}
+
+const OBB & Character::get_obb() const
+{
+	return obb;
 }

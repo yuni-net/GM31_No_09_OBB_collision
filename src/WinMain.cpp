@@ -17,15 +17,14 @@ int WINAPI WinMain(HINSTANCE hI, HINSTANCE hP, LPSTR lpC, int nC)
 	camera.y(16.0f);
 	camera.z(-16.0f);
 
-	God god;
-	god.load();
-	god.init();
+	God::load();
+	God::init();
 
 
 	while (si3::Manager::begin_frame())
 	{
-		god.update();
-		god.draw();
+		God::update();
+		God::draw();
 
 
 		si3::Manager::show();

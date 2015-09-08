@@ -1,6 +1,7 @@
 #pragma once
 
 #include <simplect3D.h>
+#include "OBB.h"
 
 class Character
 {
@@ -10,6 +11,7 @@ public:
 	void draw();
 
 	void collided();
+	const OBB & get_obb() const;
 
 
 protected:
@@ -17,4 +19,5 @@ protected:
 	si3::Coor3 center_pos;
 	si3::BoxData boxd;
 	si3::Box box;
+	OBB obb;
 };

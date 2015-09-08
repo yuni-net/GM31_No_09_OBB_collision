@@ -19,6 +19,12 @@
     <Filter Include="CameraWork">
       <UniqueIdentifier>{f144f6b2-afc2-42f0-8590-d906051fd229}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OBB">
+      <UniqueIdentifier>{eb9e557b-3520-412f-a0ee-3c1069f4873d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JudgeMan">
+      <UniqueIdentifier>{5973182d-3d56-46f6-ab33-42fa14b06677}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\WinMain.cpp" />
@@ -40,6 +46,12 @@
     <ClCompile Include="src\CameraWork.cpp">
       <Filter>CameraWork</Filter>
     </ClCompile>
+    <ClCompile Include="src\OBB.cpp">
+      <Filter>OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JudgeMan.cpp">
+      <Filter>JudgeMan</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\God.h">
@@ -59,6 +71,12 @@
     </ClInclude>
     <ClInclude Include="src\CameraWork.h">
       <Filter>CameraWork</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OBB.h">
+      <Filter>OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JudgeMan.h">
+      <Filter>JudgeMan</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

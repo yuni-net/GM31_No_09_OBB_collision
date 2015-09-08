@@ -16,6 +16,8 @@
     <ClCompile Include="src\compute_bounding.cpp" />
     <ClCompile Include="src\Enemy.cpp" />
     <ClCompile Include="src\God.cpp" />
+    <ClCompile Include="src\JudgeMan.cpp" />
+    <ClCompile Include="src\OBB.cpp" />
     <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\WinMain.cpp" />
   </ItemGroup>
@@ -24,6 +26,8 @@
     <ClInclude Include="src\Character.h" />
     <ClInclude Include="src\Enemy.h" />
     <ClInclude Include="src\God.h" />
+    <ClInclude Include="src\JudgeMan.h" />
+    <ClInclude Include="src\OBB.h" />
     <ClInclude Include="src\Player.h" />
     <ClInclude Include="src\util.h" />
   </ItemGroup>
